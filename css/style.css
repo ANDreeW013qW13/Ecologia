@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+body {
+    background-color: antiquewhite;
+    font-family: "Lexend", sans-serif;
+    margin: 0 10%;
+    font-size: 20px;
+}
+p {
+    color: blue;
+}
+div {
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 1%;
+    background-color: rgba(95, 158, 160, 0.623);
+}
+@media (max-width: 600px){
+    body {
+        background-color: aquamarine;
+        font-size: 115%;
+        border: 3px dashed red;
+    }
+    div {
+        padding: 2%;
+    }
+    pre{
+        display: none;
+    }
+}
